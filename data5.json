@@ -1,0 +1,736 @@
+[
+    {
+      "id": "1",
+      "price": "89799.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T07:20:00"
+              },
+              "arrival": {
+                "iataCode": "NRT",
+                "terminal": "2",
+                "at": "2024-12-28T15:15:00"
+              },
+              "carrierCode": "JL",
+              "flightNumber": "774",
+              "duration": "PT9H55M",
+              "aircraft": "789",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "L",
+                  "fareBasis": "LNN0OOCE",
+                  "price": "89799.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "HND",
+                "terminal": "3",
+                "at": "2024-12-28T19:45:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-28T18:30:00"
+              },
+              "carrierCode": "JL",
+              "flightNumber": "4",
+              "duration": "PT12H45M",
+              "aircraft": "351",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "L",
+                  "fareBasis": "LNN0OOCE",
+                  "price": "89799.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "price": "89799.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T07:20:00"
+              },
+              "arrival": {
+                "iataCode": "NRT",
+                "terminal": "2",
+                "at": "2024-12-28T15:15:00"
+              },
+              "carrierCode": "JL",
+              "flightNumber": "774",
+              "duration": "PT9H55M",
+              "aircraft": "789",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "L",
+                  "fareBasis": "LNN0OOCE",
+                  "price": "89799.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "HND",
+                "terminal": "3",
+                "at": "2024-12-29T11:05:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T09:50:00"
+              },
+              "carrierCode": "JL",
+              "flightNumber": "6",
+              "duration": "PT12H45M",
+              "aircraft": "351",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "L",
+                  "fareBasis": "LNN0OOCE",
+                  "price": "89799.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "price": "111224.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T15:35:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-28T21:45:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "104",
+              "duration": "PT9H10M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "111224.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-29T03:20:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T06:00:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "844",
+              "duration": "PT15H40M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "111224.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "price": "111224.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T08:50:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-28T14:55:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "134",
+              "duration": "PT9H5M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "111224.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-29T03:20:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T06:00:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "844",
+              "duration": "PT15H40M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "111224.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "price": "112539.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T15:35:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-28T21:45:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "104",
+              "duration": "PT9H10M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "112539.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2024-12-29T09:30:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T12:10:00"
+              },
+              "carrierCode": "CX",
+              "flightNumber": "830",
+              "duration": "PT15H40M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SR21AUXO",
+                  "brandedFare": "ECONLIGHT",
+                  "brandedFareLabel": "ECONOMY LIGHT",
+                  "price": "112539.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "price": "113703.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T20:15:00"
+              },
+              "arrival": {
+                "iataCode": "PEK",
+                "terminal": "3",
+                "at": "2024-12-29T04:55:00"
+              },
+              "carrierCode": "CA",
+              "flightNumber": "166",
+              "duration": "PT11H40M",
+              "aircraft": "359",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "H",
+                  "fareBasis": "HLRCOAU6",
+                  "price": "113703.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "PEK",
+                "terminal": "3",
+                "at": "2024-12-29T20:20:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "1",
+                "at": "2024-12-29T22:05:00"
+              },
+              "carrierCode": "CA",
+              "flightNumber": "981",
+              "duration": "PT14H45M",
+              "aircraft": "747",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "H",
+                  "fareBasis": "HLRCOAU6",
+                  "price": "113703.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "price": "129629.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T16:10:00"
+              },
+              "arrival": {
+                "iataCode": "AUH",
+                "terminal": "A",
+                "at": "2024-12-28T23:30:00"
+              },
+              "carrierCode": "EY",
+              "flightNumber": "463",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "Q",
+                  "fareBasis": "QKW00H5R",
+                  "brandedFare": "YBASIC",
+                  "brandedFareLabel": "ECONOMY BASIC",
+                  "price": "129629.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "AUH",
+                "terminal": "A",
+                "at": "2024-12-29T02:55:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "4",
+                "at": "2024-12-29T08:55:00"
+              },
+              "carrierCode": "EY",
+              "flightNumber": "1",
+              "duration": "PT15H",
+              "aircraft": "388",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "Q",
+                  "fareBasis": "QKW00H5R",
+                  "brandedFare": "YBASIC",
+                  "brandedFareLabel": "ECONOMY BASIC",
+                  "price": "129629.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "price": "130460.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T23:30:00"
+              },
+              "arrival": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T05:50:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "905",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "130460.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T08:15:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T15:05:00"
+              },
+              "carrierCode": "B6",
+              "flightNumber": "6640",
+              "duration": "PT14H50M",
+              "aircraft": "777",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "130460.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "price": "130460.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T17:10:00"
+              },
+              "arrival": {
+                "iataCode": "DOH",
+                "at": "2024-12-28T23:30:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "989",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "130460.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T08:15:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T15:05:00"
+              },
+              "carrierCode": "B6",
+              "flightNumber": "6640",
+              "duration": "PT14H50M",
+              "aircraft": "777",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "130460.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "price": "131397.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T17:10:00"
+              },
+              "arrival": {
+                "iataCode": "DOH",
+                "at": "2024-12-28T23:30:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "989",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T01:25:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T08:15:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "703",
+              "duration": "PT14H50M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "price": "131397.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T23:30:00"
+              },
+              "arrival": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T05:50:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "905",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T08:20:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T15:00:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "701",
+              "duration": "PT14H40M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "price": "131397.00",
+      "currency": "INR",
+      "itineraries": [
+        {
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MEL",
+                "terminal": "2",
+                "at": "2024-12-28T17:10:00"
+              },
+              "arrival": {
+                "iataCode": "DOH",
+                "at": "2024-12-28T23:30:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "989",
+              "duration": "PT14H20M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            },
+            {
+              "departure": {
+                "iataCode": "DOH",
+                "at": "2024-12-29T08:20:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "8",
+                "at": "2024-12-29T15:00:00"
+              },
+              "carrierCode": "QR",
+              "flightNumber": "701",
+              "duration": "PT14H40M",
+              "aircraft": "77W",
+              "seating": [
+                {
+                  "cabin": "ECONOMY",
+                  "class": "S",
+                  "fareBasis": "SKAUR1SI",
+                  "brandedFare": "ECONVENIEN",
+                  "brandedFareLabel": "ECONOMY CONVENIENCE",
+                  "price": "131397.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

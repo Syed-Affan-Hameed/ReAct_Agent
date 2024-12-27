@@ -1,0 +1,828 @@
+{
+  "pagination": { "limit": 100, "offset": 0, "count": 18, "total": 18 },
+  "data": [
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 49,
+        "scheduled": "2024-12-26T11:35:00+00:00",
+        "estimated": "2024-12-26T11:35:00+00:00",
+        "actual": "2024-12-26T12:23:00+00:00",
+        "estimated_runway": "2024-12-26T12:23:00+00:00",
+        "actual_runway": "2024-12-26T12:23:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": 31,
+        "scheduled": "2024-12-26T12:35:00+00:00",
+        "estimated": "2024-12-26T12:35:00+00:00",
+        "actual": "2024-12-26T13:05:00+00:00",
+        "estimated_runway": "2024-12-26T13:05:00+00:00",
+        "actual_runway": "2024-12-26T13:05:00+00:00"
+      },
+      "airline": { "name": "Corendon Air", "iata": "XC", "icao": "CAI" },
+      "flight": {
+        "number": "6796",
+        "iata": "XC6796",
+        "icao": "CAI6796",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 5,
+        "scheduled": "2024-12-26T14:10:00+00:00",
+        "estimated": "2024-12-26T14:10:00+00:00",
+        "actual": "2024-12-26T14:15:00+00:00",
+        "estimated_runway": "2024-12-26T14:15:00+00:00",
+        "actual_runway": "2024-12-26T14:15:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T15:10:00+00:00",
+        "estimated": "2024-12-26T15:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "6011",
+        "iata": "6E6011",
+        "icao": "IGO6011",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IQO",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "801622"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2024-12-26T15:10:00+00:00",
+        "estimated": "2024-12-26T15:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T16:15:00+00:00",
+        "estimated": "2024-12-26T16:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": { "name": "Air India", "iata": "AI", "icao": "AIC" },
+      "flight": {
+        "number": "539",
+        "iata": "AI539",
+        "icao": "AIC539",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2024-12-26T10:00:00+00:00",
+        "estimated": "2024-12-26T10:00:00+00:00",
+        "actual": "2024-12-26T10:10:00+00:00",
+        "estimated_runway": "2024-12-26T10:10:00+00:00",
+        "actual_runway": "2024-12-26T10:10:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T11:00:00+00:00",
+        "estimated": "2024-12-26T11:00:00+00:00",
+        "actual": "2024-12-26T10:58:00+00:00",
+        "estimated_runway": "2024-12-26T10:58:00+00:00",
+        "actual_runway": "2024-12-26T10:58:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "6918",
+        "iata": "6E6918",
+        "icao": "IGO6918",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IFV",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "8007DF"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2024-12-26T19:50:00+00:00",
+        "estimated": "2024-12-26T19:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T20:50:00+00:00",
+        "estimated": "2024-12-26T20:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "692",
+        "iata": "6E692",
+        "icao": "IGO692",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2024-12-26T06:35:00+00:00",
+        "estimated": "2024-12-26T06:35:00+00:00",
+        "actual": "2024-12-26T06:31:00+00:00",
+        "estimated_runway": "2024-12-26T06:31:00+00:00",
+        "actual_runway": "2024-12-26T06:31:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T07:35:00+00:00",
+        "estimated": "2024-12-26T07:35:00+00:00",
+        "actual": "2024-12-26T07:12:00+00:00",
+        "estimated_runway": "2024-12-26T07:12:00+00:00",
+        "actual_runway": "2024-12-26T07:12:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "339",
+        "iata": "6E339",
+        "icao": "IGO339",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-ISM",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "8013F3"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2024-12-26T16:00:00+00:00",
+        "estimated": "2024-12-26T16:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-26T17:00:00+00:00",
+        "estimated": "2024-12-26T17:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "848",
+        "iata": "6E848",
+        "icao": "IGO848",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-26",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 8,
+        "scheduled": "2024-12-26T08:00:00+00:00",
+        "estimated": "2024-12-26T08:00:00+00:00",
+        "actual": "2024-12-26T08:07:00+00:00",
+        "estimated_runway": "2024-12-26T08:07:00+00:00",
+        "actual_runway": "2024-12-26T08:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": 8,
+        "scheduled": "2024-12-26T08:55:00+00:00",
+        "estimated": "2024-12-26T08:55:00+00:00",
+        "actual": "2024-12-26T09:02:00+00:00",
+        "estimated_runway": "2024-12-26T09:02:00+00:00",
+        "actual_runway": "2024-12-26T09:02:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "981",
+        "iata": "6E981",
+        "icao": "IGO981",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IQL",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "80163C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 7,
+        "scheduled": "2024-12-25T16:00:00+00:00",
+        "estimated": "2024-12-25T16:00:00+00:00",
+        "actual": "2024-12-25T16:07:00+00:00",
+        "estimated_runway": "2024-12-25T16:07:00+00:00",
+        "actual_runway": "2024-12-25T16:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T17:00:00+00:00",
+        "estimated": "2024-12-25T17:00:00+00:00",
+        "actual": "2024-12-25T16:51:00+00:00",
+        "estimated_runway": "2024-12-25T16:51:00+00:00",
+        "actual_runway": "2024-12-25T16:51:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "848",
+        "iata": "6E848",
+        "icao": "IGO848",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IFZ",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "800AF1"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2024-12-25T11:35:00+00:00",
+        "estimated": "2024-12-25T11:35:00+00:00",
+        "actual": "2024-12-25T11:59:00+00:00",
+        "estimated_runway": "2024-12-25T11:59:00+00:00",
+        "actual_runway": "2024-12-25T11:59:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": 6,
+        "scheduled": "2024-12-25T12:35:00+00:00",
+        "estimated": "2024-12-25T12:35:00+00:00",
+        "actual": "2024-12-25T12:40:00+00:00",
+        "estimated_runway": "2024-12-25T12:40:00+00:00",
+        "actual_runway": "2024-12-25T12:40:00+00:00"
+      },
+      "airline": { "name": "Corendon Air", "iata": "XC", "icao": "CAI" },
+      "flight": {
+        "number": "6796",
+        "iata": "XC6796",
+        "icao": "CAI6796",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": "4",
+        "delay": 13,
+        "scheduled": "2024-12-25T15:10:00+00:00",
+        "estimated": "2024-12-25T15:10:00+00:00",
+        "actual": "2024-12-25T15:23:00+00:00",
+        "estimated_runway": "2024-12-25T15:23:00+00:00",
+        "actual_runway": "2024-12-25T15:23:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T16:15:00+00:00",
+        "estimated": "2024-12-25T16:15:00+00:00",
+        "actual": "2024-12-25T16:04:00+00:00",
+        "estimated_runway": "2024-12-25T16:04:00+00:00",
+        "actual_runway": "2024-12-25T16:04:00+00:00"
+      },
+      "airline": { "name": "Air India", "iata": "AI", "icao": "AIC" },
+      "flight": {
+        "number": "539",
+        "iata": "AI539",
+        "icao": "AIC539",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-EXT",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "800BE7"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 19,
+        "scheduled": "2024-12-25T22:40:00+00:00",
+        "estimated": "2024-12-25T22:40:00+00:00",
+        "actual": "2024-12-25T22:58:00+00:00",
+        "estimated_runway": "2024-12-25T22:58:00+00:00",
+        "actual_runway": "2024-12-25T22:58:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T23:45:00+00:00",
+        "estimated": "2024-12-25T23:45:00+00:00",
+        "actual": "2024-12-25T23:42:00+00:00",
+        "estimated_runway": "2024-12-25T23:42:00+00:00",
+        "actual_runway": "2024-12-25T23:42:00+00:00"
+      },
+      "airline": { "name": "Air France", "iata": "AF", "icao": "AFR" },
+      "flight": {
+        "number": "3338",
+        "iata": "AF3338",
+        "icao": "AFR3338",
+        "codeshared": {
+          "airline_name": "indigo",
+          "airline_iata": "6e",
+          "airline_icao": "igo",
+          "flight_number": "6315",
+          "flight_iata": "6e6315",
+          "flight_icao": "igo6315"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 17,
+        "scheduled": "2024-12-25T08:00:00+00:00",
+        "estimated": "2024-12-25T08:00:00+00:00",
+        "actual": "2024-12-25T08:16:00+00:00",
+        "estimated_runway": "2024-12-25T08:16:00+00:00",
+        "actual_runway": "2024-12-25T08:16:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": 9,
+        "scheduled": "2024-12-25T08:55:00+00:00",
+        "estimated": "2024-12-25T08:55:00+00:00",
+        "actual": "2024-12-25T09:04:00+00:00",
+        "estimated_runway": "2024-12-25T09:04:00+00:00",
+        "actual_runway": "2024-12-25T09:04:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "981",
+        "iata": "6E981",
+        "icao": "IGO981",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IQL",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "80163C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 4,
+        "scheduled": "2024-12-25T19:50:00+00:00",
+        "estimated": "2024-12-25T19:50:00+00:00",
+        "actual": "2024-12-25T19:53:00+00:00",
+        "estimated_runway": "2024-12-25T19:53:00+00:00",
+        "actual_runway": "2024-12-25T19:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T20:50:00+00:00",
+        "estimated": "2024-12-25T20:50:00+00:00",
+        "actual": "2024-12-25T20:37:00+00:00",
+        "estimated_runway": "2024-12-25T20:37:00+00:00",
+        "actual_runway": "2024-12-25T20:37:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "692",
+        "iata": "6E692",
+        "icao": "IGO692",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IPV",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "8015CA"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2024-12-25T10:00:00+00:00",
+        "estimated": "2024-12-25T10:00:00+00:00",
+        "actual": "2024-12-25T09:56:00+00:00",
+        "estimated_runway": "2024-12-25T09:56:00+00:00",
+        "actual_runway": "2024-12-25T09:56:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T11:00:00+00:00",
+        "estimated": "2024-12-25T11:00:00+00:00",
+        "actual": "2024-12-25T10:44:00+00:00",
+        "estimated_runway": "2024-12-25T10:44:00+00:00",
+        "actual_runway": "2024-12-25T10:44:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "6918",
+        "iata": "6E6918",
+        "icao": "IGO6918",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IFV",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "8007DF"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 19,
+        "scheduled": "2024-12-25T22:40:00+00:00",
+        "estimated": "2024-12-25T22:40:00+00:00",
+        "actual": "2024-12-25T22:58:00+00:00",
+        "estimated_runway": "2024-12-25T22:58:00+00:00",
+        "actual_runway": "2024-12-25T22:58:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T23:45:00+00:00",
+        "estimated": "2024-12-25T23:45:00+00:00",
+        "actual": "2024-12-25T23:42:00+00:00",
+        "estimated_runway": "2024-12-25T23:42:00+00:00",
+        "actual_runway": "2024-12-25T23:42:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "6315",
+        "iata": "6E6315",
+        "icao": "IGO6315",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IPF",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "80152F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 7,
+        "scheduled": "2024-12-25T14:10:00+00:00",
+        "estimated": "2024-12-25T14:10:00+00:00",
+        "actual": "2024-12-25T14:16:00+00:00",
+        "estimated_runway": "2024-12-25T14:16:00+00:00",
+        "actual_runway": "2024-12-25T14:16:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T15:10:00+00:00",
+        "estimated": "2024-12-25T15:10:00+00:00",
+        "actual": "2024-12-25T15:05:00+00:00",
+        "estimated_runway": "2024-12-25T15:05:00+00:00",
+        "actual_runway": "2024-12-25T15:05:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "6011",
+        "iata": "6E6011",
+        "icao": "IGO6011",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-IQO",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "801622"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2024-12-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Peelamedu",
+        "timezone": "Asia/Kolkata",
+        "iata": "CJB",
+        "icao": "VOCB",
+        "terminal": null,
+        "gate": null,
+        "delay": 8,
+        "scheduled": "2024-12-25T06:35:00+00:00",
+        "estimated": "2024-12-25T06:35:00+00:00",
+        "actual": "2024-12-25T06:43:00+00:00",
+        "estimated_runway": "2024-12-25T06:43:00+00:00",
+        "actual_runway": "2024-12-25T06:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Madras International (Meenambakkam)",
+        "timezone": "Asia/Kolkata",
+        "iata": "MAA",
+        "icao": "VOMM",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "delay": null,
+        "scheduled": "2024-12-25T07:35:00+00:00",
+        "estimated": "2024-12-25T07:35:00+00:00",
+        "actual": "2024-12-25T07:24:00+00:00",
+        "estimated_runway": "2024-12-25T07:24:00+00:00",
+        "actual_runway": "2024-12-25T07:24:00+00:00"
+      },
+      "airline": { "name": "IndiGo", "iata": "6E", "icao": "IGO" },
+      "flight": {
+        "number": "339",
+        "iata": "6E339",
+        "icao": "IGO339",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-ISM",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "8013F3"
+      },
+      "live": null
+    }
+  ]
+}

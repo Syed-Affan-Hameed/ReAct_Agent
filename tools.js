@@ -45,6 +45,7 @@ export const tools = [
               },
               required: ["location"],
               additionalProperties: false,
+              strict:true
           }
       }
   },
@@ -58,5 +59,38 @@ export const tools = [
               properties: {}
           }
       }
+  },
+]
+
+export const newTools =[
+  {
+    type: 'function',
+    function: {
+      function: getLocation,
+      parameters: {
+        type: "object",
+        properties: {
+          location: {
+            type: "string",
+            description: "location to get the weather for",
+          }
+        },
+        required: ["location"],
+        additionalProperties: false,
+    }
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      function: getCurrentWeather,
+      parse: JSON.parse, // or use a validation library like zod for typesafe parsing.
+      parameters: {
+        type: 'object',
+        properties: {
+          location: { type: 'string' },
+        },
+      },
+    },
   },
 ]

@@ -1,0 +1,997 @@
+{
+  "headers": {
+    "date": "Thu, 26 Dec 2024 11:12:05 GMT",
+    "content-type": "application/vnd.amadeus+json",
+    "content-length": "9079",
+    "connection": "keep-alive",
+    "ama-internal-message-version": "14.1",
+    "ama-request-id": "0001GDSRUP3LS2",
+    "ama-gateway-request-id": "rrt-0d7c83f123c00149b-a-de-2974463-495844944-2",
+    "access-control-allow-headers": "origin, x-requested-with, accept, Content-Type, Authorization",
+    "access-control-max-age": "3628800",
+    "access-control-allow-methods": "*",
+    "server": "Amadeus",
+    "access-control-allow-origin": "*"
+  },
+  "statusCode": 200,
+  "request": {
+    "host": "test.api.amadeus.com",
+    "port": 443,
+    "ssl": true,
+    "scheme": "https",
+    "verb": "GET",
+    "path": "/v2/shopping/flight-offers",
+    "params": {
+      "originLocationCode": "BLR",
+      "destinationLocationCode": "NYC",
+      "departureDate": "2024-12-26",
+      "adults": "1",
+      "max": "2"
+    },
+    "queryPath": "/v2/shopping/flight-offers?originLocationCode=BLR&destinationLocationCode=NYC&departureDate=2024-12-26&adults=1&max=2",
+    "bearerToken": "C32mHD1LmouIfq1a216LHdhYDOKN",
+    "clientVersion": "11.0.0",
+    "languageVersion": "20.17.0",
+    "appId": null,
+    "appVersion": null,
+    "headers": {
+      "User-Agent": "amadeus-node/11.0.0 node/20.17.0",
+      "Accept": "application/json, application/vnd.amadeus+json",
+      "Authorization": "Bearer C32mHD1LmouIfq1a216LHdhYDOKN",
+      "Content-Type": "application/vnd.amadeus+json"
+    },
+    "ListHTTPOverride": [
+      "/v2/shopping/flight-offers",
+      "/v1/shopping/seatmaps",
+      "/v1/shopping/availability/flight-availabilities",
+      "/v2/shopping/flight-offers/prediction",
+      "/v1/shopping/flight-offers/pricing",
+      "/v1/shopping/flight-offers/upselling"
+    ]
+  },
+  "body": "{\"meta\":{\"count\":2,\"links\":{\"self\":\"https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=BLR&destinationLocationCode=NYC&departureDate=2024-12-26&adults=1&max=2\"}},\"data\":[{\"type\":\"flight-offer\",\"id\":\"1\",\"source\":\"GDS\",\"instantTicketingRequired\":false,\"nonHomogeneous\":false,\"oneWay\":false,\"isUpsellOffer\":false,\"lastTicketingDate\":\"2024-12-26\",\"lastTicketingDateTime\":\"2024-12-26\",\"numberOfBookableSeats\":9,\"itineraries\":[{\"duration\":\"PT35H20M\",\"segments\":[{\"departure\":{\"iataCode\":\"BLR\",\"terminal\":\"2\",\"at\":\"2024-12-26T20:20:00\"},\"arrival\":{\"iataCode\":\"DXB\",\"terminal\":\"3\",\"at\":\"2024-12-26T23:00:00\"},\"carrierCode\":\"EK\",\"number\":\"567\",\"aircraft\":{\"code\":\"77W\"},\"operating\":{\"carrierCode\":\"EK\"},\"duration\":\"PT4H10M\",\"id\":\"4\",\"numberOfStops\":0,\"blacklistedInEU\":false},{\"departure\":{\"iataCode\":\"DXB\",\"terminal\":\"3\",\"at\":\"2024-12-27T11:30:00\"},\"arrival\":{\"iataCode\":\"EWR\",\"terminal\":\"B\",\"at\":\"2024-12-27T21:10:00\"},\"carrierCode\":\"EK\",\"number\":\"209\",\"aircraft\":{\"code\":\"77W\"},\"operating\":{\"carrierCode\":\"EK\"},\"duration\":\"PT18H40M\",\"stops\":[{\"iataCode\":\"ATH\",\"duration\":\"PT2H5M\",\"arrivalAt\":\"2024-12-27T15:05:00\",\"departureAt\":\"2024-12-27T17:10:00\"}],\"id\":\"5\",\"numberOfStops\":1,\"blacklistedInEU\":false}]}],\"price\":{\"currency\":\"EUR\",\"total\":\"619.38\",\"base\":\"294.00\",\"fees\":[{\"amount\":\"0.00\",\"type\":\"SUPPLIER\"},{\"amount\":\"0.00\",\"type\":\"TICKETING\"}],\"grandTotal\":\"619.38\"},\"pricingOptions\":{\"fareType\":[\"PUBLISHED\"],\"includedCheckedBagsOnly\":true},\"validatingAirlineCodes\":[\"EK\"],\"travelerPricings\":[{\"travelerId\":\"1\",\"fareOption\":\"STANDARD\",\"travelerType\":\"ADULT\",\"price\":{\"currency\":\"EUR\",\"total\":\"619.38\",\"base\":\"294.00\"},\"fareDetailsBySegment\":[{\"segmentId\":\"4\",\"cabin\":\"ECONOMY\",\"fareBasis\":\"LLAOPIN1\",\"brandedFare\":\"ECOSAVER\",\"brandedFareLabel\":\"ECO SAVER\",\"class\":\"L\",\"includedCheckedBags\":{\"quantity\":2},\"amenities\":[{\"description\":\"PRE RESERVED SEAT ASSIGNMENT\",\"isChargeable\":true,\"amenityType\":\"PRE_RESERVED_SEAT\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"BEVERAGE\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"MEAL VOUCHER\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"REFUNDABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"UPGRADE ELIGIBILITY\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"CHANGEABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"30 PERCENT MILES EARNED\",\"isChargeable\":false,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}}]},{\"segmentId\":\"5\",\"cabin\":\"ECONOMY\",\"fareBasis\":\"LLAOPIN1\",\"brandedFare\":\"ECOSAVER\",\"brandedFareLabel\":\"ECO SAVER\",\"class\":\"L\",\"includedCheckedBags\":{\"quantity\":2},\"amenities\":[{\"description\":\"PRE RESERVED SEAT ASSIGNMENT\",\"isChargeable\":true,\"amenityType\":\"PRE_RESERVED_SEAT\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"BEVERAGE\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"MEAL VOUCHER\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"REFUNDABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"UPGRADE ELIGIBILITY\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"CHANGEABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"30 PERCENT MILES EARNED\",\"isChargeable\":false,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}}]}]}]},{\"type\":\"flight-offer\",\"id\":\"2\",\"source\":\"GDS\",\"instantTicketingRequired\":false,\"nonHomogeneous\":false,\"oneWay\":false,\"isUpsellOffer\":false,\"lastTicketingDate\":\"2024-12-26\",\"lastTicketingDateTime\":\"2024-12-26\",\"numberOfBookableSeats\":9,\"itineraries\":[{\"duration\":\"PT33H5M\",\"segments\":[{\"departure\":{\"iataCode\":\"BLR\",\"terminal\":\"2\",\"at\":\"2024-12-26T20:20:00\"},\"arrival\":{\"iataCode\":\"DXB\",\"terminal\":\"3\",\"at\":\"2024-12-26T23:00:00\"},\"carrierCode\":\"EK\",\"number\":\"567\",\"aircraft\":{\"code\":\"77W\"},\"operating\":{\"carrierCode\":\"EK\"},\"duration\":\"PT4H10M\",\"id\":\"1\",\"numberOfStops\":0,\"blacklistedInEU\":false},{\"departure\":{\"iataCode\":\"DXB\",\"terminal\":\"3\",\"at\":\"2024-12-27T07:35:00\"},\"arrival\":{\"iataCode\":\"BGY\",\"at\":\"2024-12-27T11:40:00\"},\"carrierCode\":\"EK\",\"number\":\"2140\",\"aircraft\":{\"code\":\"7M8\"},\"operating\":{\"carrierCode\":\"FZ\"},\"duration\":\"PT7H5M\",\"id\":\"2\",\"numberOfStops\":0,\"blacklistedInEU\":false},{\"departure\":{\"iataCode\":\"MXP\",\"terminal\":\"1\",\"at\":\"2024-12-27T15:40:00\"},\"arrival\":{\"iataCode\":\"JFK\",\"terminal\":\"4\",\"at\":\"2024-12-27T18:55:00\"},\"carrierCode\":\"EK\",\"number\":\"205\",\"aircraft\":{\"code\":\"388\"},\"operating\":{\"carrierCode\":\"EK\"},\"duration\":\"PT9H15M\",\"id\":\"3\",\"numberOfStops\":0,\"blacklistedInEU\":false}]}],\"price\":{\"currency\":\"EUR\",\"total\":\"646.46\",\"base\":\"294.00\",\"fees\":[{\"amount\":\"0.00\",\"type\":\"SUPPLIER\"},{\"amount\":\"0.00\",\"type\":\"TICKETING\"}],\"grandTotal\":\"646.46\"},\"pricingOptions\":{\"fareType\":[\"PUBLISHED\"],\"includedCheckedBagsOnly\":true},\"validatingAirlineCodes\":[\"EK\"],\"travelerPricings\":[{\"travelerId\":\"1\",\"fareOption\":\"STANDARD\",\"travelerType\":\"ADULT\",\"price\":{\"currency\":\"EUR\",\"total\":\"646.46\",\"base\":\"294.00\"},\"fareDetailsBySegment\":[{\"segmentId\":\"1\",\"cabin\":\"ECONOMY\",\"fareBasis\":\"LLAOPIN1\",\"brandedFare\":\"ECOSAVER\",\"brandedFareLabel\":\"ECO SAVER\",\"class\":\"L\",\"includedCheckedBags\":{\"quantity\":2},\"amenities\":[{\"description\":\"PRE RESERVED SEAT ASSIGNMENT\",\"isChargeable\":true,\"amenityType\":\"PRE_RESERVED_SEAT\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"BEVERAGE\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"MEAL VOUCHER\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"REFUNDABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"UPGRADE ELIGIBILITY\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"CHANGEABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"30 PERCENT MILES EARNED\",\"isChargeable\":false,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}}]},{\"segmentId\":\"2\",\"cabin\":\"ECONOMY\",\"fareBasis\":\"LLAOPIN1\",\"brandedFare\":\"ECOSAVER\",\"brandedFareLabel\":\"ECO SAVER\",\"class\":\"L\",\"includedCheckedBags\":{\"quantity\":2},\"amenities\":[{\"description\":\"PRE RESERVED SEAT ASSIGNMENT\",\"isChargeable\":true,\"amenityType\":\"PRE_RESERVED_SEAT\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"BEVERAGE\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"MEAL VOUCHER\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"REFUNDABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"UPGRADE ELIGIBILITY\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"CHANGEABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"30 PERCENT MILES EARNED\",\"isChargeable\":false,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}}]},{\"segmentId\":\"3\",\"cabin\":\"ECONOMY\",\"fareBasis\":\"LLAOPIN1\",\"brandedFare\":\"ECOSAVER\",\"brandedFareLabel\":\"ECO SAVER\",\"class\":\"L\",\"includedCheckedBags\":{\"quantity\":2},\"amenities\":[{\"description\":\"PRE RESERVED SEAT ASSIGNMENT\",\"isChargeable\":true,\"amenityType\":\"PRE_RESERVED_SEAT\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"BEVERAGE\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"MEAL VOUCHER\",\"isChargeable\":false,\"amenityType\":\"MEAL\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"REFUNDABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"UPGRADE ELIGIBILITY\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"CHANGEABLE TICKET\",\"isChargeable\":true,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}},{\"description\":\"30 PERCENT MILES EARNED\",\"isChargeable\":false,\"amenityType\":\"BRANDED_FARES\",\"amenityProvider\":{\"name\":\"BrandedFare\"}}]}]}]}],\"dictionaries\":{\"locations\":{\"EWR\":{\"cityCode\":\"NYC\",\"countryCode\":\"US\"},\"MXP\":{\"cityCode\":\"MIL\",\"countryCode\":\"IT\"},\"BGY\":{\"cityCode\":\"MIL\",\"countryCode\":\"IT\"},\"BLR\":{\"cityCode\":\"BLR\",\"countryCode\":\"IN\"},\"JFK\":{\"cityCode\":\"NYC\",\"countryCode\":\"US\"},\"DXB\":{\"cityCode\":\"DXB\",\"countryCode\":\"AE\"}},\"aircraft\":{\"7M8\":\"BOEING 737 MAX 8\",\"388\":\"AIRBUS A380-800\",\"77W\":\"BOEING 777-300ER\"},\"currencies\":{\"EUR\":\"EURO\"},\"carriers\":{\"FZ\":\"FLYDUBAI\",\"EK\":\"EMIRATES\"}}}",
+  "result": {
+    "meta": {
+      "count": 2,
+      "links": {
+        "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=BLR&destinationLocationCode=NYC&departureDate=2024-12-26&adults=1&max=2"
+      }
+    },
+    "data": [
+      {
+        "type": "flight-offer",
+        "id": "1",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "oneWay": false,
+        "isUpsellOffer": false,
+        "lastTicketingDate": "2024-12-26",
+        "lastTicketingDateTime": "2024-12-26",
+        "numberOfBookableSeats": 9,
+        "itineraries": [
+          {
+            "duration": "PT35H20M",
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "BLR",
+                  "terminal": "2",
+                  "at": "2024-12-26T20:20:00"
+                },
+                "arrival": {
+                  "iataCode": "DXB",
+                  "terminal": "3",
+                  "at": "2024-12-26T23:00:00"
+                },
+                "carrierCode": "EK",
+                "number": "567",
+                "aircraft": { "code": "77W" },
+                "operating": { "carrierCode": "EK" },
+                "duration": "PT4H10M",
+                "id": "4",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              },
+              {
+                "departure": {
+                  "iataCode": "DXB",
+                  "terminal": "3",
+                  "at": "2024-12-27T11:30:00"
+                },
+                "arrival": {
+                  "iataCode": "EWR",
+                  "terminal": "B",
+                  "at": "2024-12-27T21:10:00"
+                },
+                "carrierCode": "EK",
+                "number": "209",
+                "aircraft": { "code": "77W" },
+                "operating": { "carrierCode": "EK" },
+                "duration": "PT18H40M",
+                "stops": [
+                  {
+                    "iataCode": "ATH",
+                    "duration": "PT2H5M",
+                    "arrivalAt": "2024-12-27T15:05:00",
+                    "departureAt": "2024-12-27T17:10:00"
+                  }
+                ],
+                "id": "5",
+                "numberOfStops": 1,
+                "blacklistedInEU": false
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "total": "619.38",
+          "base": "294.00",
+          "fees": [
+            { "amount": "0.00", "type": "SUPPLIER" },
+            { "amount": "0.00", "type": "TICKETING" }
+          ],
+          "grandTotal": "619.38"
+        },
+        "pricingOptions": {
+          "fareType": ["PUBLISHED"],
+          "includedCheckedBagsOnly": true
+        },
+        "validatingAirlineCodes": ["EK"],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": { "currency": "EUR", "total": "619.38", "base": "294.00" },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "4",
+                "cabin": "ECONOMY",
+                "fareBasis": "LLAOPIN1",
+                "brandedFare": "ECOSAVER",
+                "brandedFareLabel": "ECO SAVER",
+                "class": "L",
+                "includedCheckedBags": { "quantity": 2 },
+                "amenities": [
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "BEVERAGE",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "MEAL VOUCHER",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "REFUNDABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "UPGRADE ELIGIBILITY",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "30 PERCENT MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  }
+                ]
+              },
+              {
+                "segmentId": "5",
+                "cabin": "ECONOMY",
+                "fareBasis": "LLAOPIN1",
+                "brandedFare": "ECOSAVER",
+                "brandedFareLabel": "ECO SAVER",
+                "class": "L",
+                "includedCheckedBags": { "quantity": 2 },
+                "amenities": [
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "BEVERAGE",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "MEAL VOUCHER",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "REFUNDABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "UPGRADE ELIGIBILITY",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "30 PERCENT MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flight-offer",
+        "id": "2",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "oneWay": false,
+        "isUpsellOffer": false,
+        "lastTicketingDate": "2024-12-26",
+        "lastTicketingDateTime": "2024-12-26",
+        "numberOfBookableSeats": 9,
+        "itineraries": [
+          {
+            "duration": "PT33H5M",
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "BLR",
+                  "terminal": "2",
+                  "at": "2024-12-26T20:20:00"
+                },
+                "arrival": {
+                  "iataCode": "DXB",
+                  "terminal": "3",
+                  "at": "2024-12-26T23:00:00"
+                },
+                "carrierCode": "EK",
+                "number": "567",
+                "aircraft": { "code": "77W" },
+                "operating": { "carrierCode": "EK" },
+                "duration": "PT4H10M",
+                "id": "1",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              },
+              {
+                "departure": {
+                  "iataCode": "DXB",
+                  "terminal": "3",
+                  "at": "2024-12-27T07:35:00"
+                },
+                "arrival": { "iataCode": "BGY", "at": "2024-12-27T11:40:00" },
+                "carrierCode": "EK",
+                "number": "2140",
+                "aircraft": { "code": "7M8" },
+                "operating": { "carrierCode": "FZ" },
+                "duration": "PT7H5M",
+                "id": "2",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              },
+              {
+                "departure": {
+                  "iataCode": "MXP",
+                  "terminal": "1",
+                  "at": "2024-12-27T15:40:00"
+                },
+                "arrival": {
+                  "iataCode": "JFK",
+                  "terminal": "4",
+                  "at": "2024-12-27T18:55:00"
+                },
+                "carrierCode": "EK",
+                "number": "205",
+                "aircraft": { "code": "388" },
+                "operating": { "carrierCode": "EK" },
+                "duration": "PT9H15M",
+                "id": "3",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "total": "646.46",
+          "base": "294.00",
+          "fees": [
+            { "amount": "0.00", "type": "SUPPLIER" },
+            { "amount": "0.00", "type": "TICKETING" }
+          ],
+          "grandTotal": "646.46"
+        },
+        "pricingOptions": {
+          "fareType": ["PUBLISHED"],
+          "includedCheckedBagsOnly": true
+        },
+        "validatingAirlineCodes": ["EK"],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": { "currency": "EUR", "total": "646.46", "base": "294.00" },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "1",
+                "cabin": "ECONOMY",
+                "fareBasis": "LLAOPIN1",
+                "brandedFare": "ECOSAVER",
+                "brandedFareLabel": "ECO SAVER",
+                "class": "L",
+                "includedCheckedBags": { "quantity": 2 },
+                "amenities": [
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "BEVERAGE",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "MEAL VOUCHER",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "REFUNDABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "UPGRADE ELIGIBILITY",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "30 PERCENT MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  }
+                ]
+              },
+              {
+                "segmentId": "2",
+                "cabin": "ECONOMY",
+                "fareBasis": "LLAOPIN1",
+                "brandedFare": "ECOSAVER",
+                "brandedFareLabel": "ECO SAVER",
+                "class": "L",
+                "includedCheckedBags": { "quantity": 2 },
+                "amenities": [
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "BEVERAGE",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "MEAL VOUCHER",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "REFUNDABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "UPGRADE ELIGIBILITY",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "30 PERCENT MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  }
+                ]
+              },
+              {
+                "segmentId": "3",
+                "cabin": "ECONOMY",
+                "fareBasis": "LLAOPIN1",
+                "brandedFare": "ECOSAVER",
+                "brandedFareLabel": "ECO SAVER",
+                "class": "L",
+                "includedCheckedBags": { "quantity": 2 },
+                "amenities": [
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "BEVERAGE",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "MEAL VOUCHER",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "REFUNDABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "UPGRADE ELIGIBILITY",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  },
+                  {
+                    "description": "30 PERCENT MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": { "name": "BrandedFare" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dictionaries": {
+      "locations": {
+        "EWR": { "cityCode": "NYC", "countryCode": "US" },
+        "MXP": { "cityCode": "MIL", "countryCode": "IT" },
+        "BGY": { "cityCode": "MIL", "countryCode": "IT" },
+        "BLR": { "cityCode": "BLR", "countryCode": "IN" },
+        "JFK": { "cityCode": "NYC", "countryCode": "US" },
+        "DXB": { "cityCode": "DXB", "countryCode": "AE" }
+      },
+      "aircraft": {
+        "388": "AIRBUS A380-800",
+        "7M8": "BOEING 737 MAX 8",
+        "77W": "BOEING 777-300ER"
+      },
+      "currencies": { "EUR": "EURO" },
+      "carriers": { "FZ": "FLYDUBAI", "EK": "EMIRATES" }
+    }
+  },
+  "data": [
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2024-12-26",
+      "lastTicketingDateTime": "2024-12-26",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT35H20M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BLR",
+                "terminal": "2",
+                "at": "2024-12-26T20:20:00"
+              },
+              "arrival": {
+                "iataCode": "DXB",
+                "terminal": "3",
+                "at": "2024-12-26T23:00:00"
+              },
+              "carrierCode": "EK",
+              "number": "567",
+              "aircraft": { "code": "77W" },
+              "operating": { "carrierCode": "EK" },
+              "duration": "PT4H10M",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "DXB",
+                "terminal": "3",
+                "at": "2024-12-27T11:30:00"
+              },
+              "arrival": {
+                "iataCode": "EWR",
+                "terminal": "B",
+                "at": "2024-12-27T21:10:00"
+              },
+              "carrierCode": "EK",
+              "number": "209",
+              "aircraft": { "code": "77W" },
+              "operating": { "carrierCode": "EK" },
+              "duration": "PT18H40M",
+              "stops": [
+                {
+                  "iataCode": "ATH",
+                  "duration": "PT2H5M",
+                  "arrivalAt": "2024-12-27T15:05:00",
+                  "departureAt": "2024-12-27T17:10:00"
+                }
+              ],
+              "id": "5",
+              "numberOfStops": 1,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "619.38",
+        "base": "294.00",
+        "fees": [
+          { "amount": "0.00", "type": "SUPPLIER" },
+          { "amount": "0.00", "type": "TICKETING" }
+        ],
+        "grandTotal": "619.38"
+      },
+      "pricingOptions": {
+        "fareType": ["PUBLISHED"],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": ["EK"],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": { "currency": "EUR", "total": "619.38", "base": "294.00" },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "LLAOPIN1",
+              "brandedFare": "ECOSAVER",
+              "brandedFareLabel": "ECO SAVER",
+              "class": "L",
+              "includedCheckedBags": { "quantity": 2 },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": true,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "BEVERAGE",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "MEAL VOUCHER",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "UPGRADE ELIGIBILITY",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "30 PERCENT MILES EARNED",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                }
+              ]
+            },
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "LLAOPIN1",
+              "brandedFare": "ECOSAVER",
+              "brandedFareLabel": "ECO SAVER",
+              "class": "L",
+              "includedCheckedBags": { "quantity": 2 },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": true,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "BEVERAGE",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "MEAL VOUCHER",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "UPGRADE ELIGIBILITY",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "30 PERCENT MILES EARNED",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "2",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2024-12-26",
+      "lastTicketingDateTime": "2024-12-26",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT33H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BLR",
+                "terminal": "2",
+                "at": "2024-12-26T20:20:00"
+              },
+              "arrival": {
+                "iataCode": "DXB",
+                "terminal": "3",
+                "at": "2024-12-26T23:00:00"
+              },
+              "carrierCode": "EK",
+              "number": "567",
+              "aircraft": { "code": "77W" },
+              "operating": { "carrierCode": "EK" },
+              "duration": "PT4H10M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "DXB",
+                "terminal": "3",
+                "at": "2024-12-27T07:35:00"
+              },
+              "arrival": { "iataCode": "BGY", "at": "2024-12-27T11:40:00" },
+              "carrierCode": "EK",
+              "number": "2140",
+              "aircraft": { "code": "7M8" },
+              "operating": { "carrierCode": "FZ" },
+              "duration": "PT7H5M",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "MXP",
+                "terminal": "1",
+                "at": "2024-12-27T15:40:00"
+              },
+              "arrival": {
+                "iataCode": "JFK",
+                "terminal": "4",
+                "at": "2024-12-27T18:55:00"
+              },
+              "carrierCode": "EK",
+              "number": "205",
+              "aircraft": { "code": "388" },
+              "operating": { "carrierCode": "EK" },
+              "duration": "PT9H15M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "646.46",
+        "base": "294.00",
+        "fees": [
+          { "amount": "0.00", "type": "SUPPLIER" },
+          { "amount": "0.00", "type": "TICKETING" }
+        ],
+        "grandTotal": "646.46"
+      },
+      "pricingOptions": {
+        "fareType": ["PUBLISHED"],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": ["EK"],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": { "currency": "EUR", "total": "646.46", "base": "294.00" },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "LLAOPIN1",
+              "brandedFare": "ECOSAVER",
+              "brandedFareLabel": "ECO SAVER",
+              "class": "L",
+              "includedCheckedBags": { "quantity": 2 },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": true,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "BEVERAGE",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "MEAL VOUCHER",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "UPGRADE ELIGIBILITY",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "30 PERCENT MILES EARNED",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                }
+              ]
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "LLAOPIN1",
+              "brandedFare": "ECOSAVER",
+              "brandedFareLabel": "ECO SAVER",
+              "class": "L",
+              "includedCheckedBags": { "quantity": 2 },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": true,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "BEVERAGE",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "MEAL VOUCHER",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "UPGRADE ELIGIBILITY",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "30 PERCENT MILES EARNED",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                }
+              ]
+            },
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "LLAOPIN1",
+              "brandedFare": "ECOSAVER",
+              "brandedFareLabel": "ECO SAVER",
+              "class": "L",
+              "includedCheckedBags": { "quantity": 2 },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": true,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "BEVERAGE",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "MEAL VOUCHER",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "UPGRADE ELIGIBILITY",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                },
+                {
+                  "description": "30 PERCENT MILES EARNED",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": { "name": "BrandedFare" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parsed": true
+}
